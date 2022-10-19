@@ -77,12 +77,12 @@ public class Main {
         var hoursForEach = 8;
         var totalEmployee = totalTime / hoursForEach;
 
-        System.out.println("Всего работников в компании – " + totalEmployee + " человек.");
+        System.out.println("Всего работников в компании – " + totalEmployee + " человек!");
 
         totalEmployee = totalEmployee + 94;
         totalTime = totalEmployee * hoursForEach;
 
-        System.out.println("Если в компании работает " + totalEmployee  + " человек, то всего " + totalTime +  " часов работы может быть поделено между сотрудниками.");
+        System.out.println("Если в компании работает " + totalEmployee  + " человек, то всего " + totalTime +  " часов работы может быть поделено между сотрудниками!");
 
     }
 }
